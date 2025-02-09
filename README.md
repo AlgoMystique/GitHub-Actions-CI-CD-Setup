@@ -1,16 +1,16 @@
 # GitHub Actions CI/CD Setup
 
-## Description
+## Description:
 As applications scale and develop, software engineers aim to ensure quality and consistency before merging code into critical branches. Continuous Integration (CI) and Continuous Deployment (CD) are essential practices that automate testing and deployment processes. 
 
 This project sets up a CI/CD pipeline using **GitHub Actions** to automate **Cypress component testing** and **deployment to Render**.
 
-## Features
+## Features:
 - **Automated Cypress component testing** when a Pull Request (PR) is made to the `develop` branch.
 - **Automated deployment** when code is merged from `develop` to `main`.
 - **Ensures consistency and quality** before merging code into the main branch.
 
-## Technologies Used
+## Technologies Used:
 - **GitHub Actions** – Automates testing and deployment.
 - **Cypress** – Runs component tests to validate UI functionality.
 - **Render** – Hosts and deploys the application.
