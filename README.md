@@ -30,7 +30,7 @@ This project sets up a CI/CD pipeline using **GitHub Actions** to automate **Cyp
    npm install
    ```
 
-2. **Set Up GitHub Actions**
+2. **Set Up GitHub Actions**:
 
   -Install dependencies
           ``` npm install```
@@ -42,16 +42,16 @@ This project sets up a CI/CD pipeline using **GitHub Actions** to automate **Cyp
    - Deploy to render
 
 
-4. **Testing the Workflow**
+4. **Testing the Workflow**:
    - Create a new feature branch and push changes.
    - Open a **Pull Request** to the `develop` branch to trigger the Cypress tests.
 
 
-## Contribution
+## Contribution:
 - **Fork the repository**.
 
 
-## License
+## License:
 This project is licensed under the **MIT License**.
 
 ## Contact
