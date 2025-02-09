@@ -15,14 +15,14 @@ This project sets up a CI/CD pipeline using **GitHub Actions** to automate **Cyp
 - **Cypress** – Runs component tests to validate UI functionality.
 - **Render** – Hosts and deploys the application.
 
-## Setup and Installation
+## Setup and Installation:
 ### Prerequisites
 - Node.js installed
 - Cypress installed (`npm install cypress --save-dev`)
 - A GitHub repository with **Actions enabled**
 - A Render account for deployment
 
-### Steps to Set Up CI/CD
+### Steps to Set Up CI/CD:
 1. **Clone the Repository**
    ```
    git clone 
