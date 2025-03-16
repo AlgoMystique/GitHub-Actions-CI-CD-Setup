@@ -1,14 +1,23 @@
 # GitHub Actions CI/CD Setup
 
-## Description:
-As applications scale and develop, software engineers aim to ensure quality and consistency before merging code into critical branches. Continuous Integration (CI) and Continuous Deployment (CD) are essential practices that automate testing and deployment processes. 
+## Description
+As applications scale, ensuring quality and consistency before merging code into critical branches becomes essential. Continuous Integration (CI) and Continuous Deployment (CD) practices help automate testing and deployment, streamlining these processes.
 
-This project sets up a CI/CD pipeline using **GitHub Actions** to automate **Cypress component testing** and **deployment to Render**.
+This project implements a **CI/CD pipeline** using **GitHub Actions**, automating **Cypress component testing** and **deployment to Render**, ensuring smooth, efficient workflows.
 
-## Features:
-- **Automated Cypress component testing** when a Pull Request (PR) is made to the `develop` branch.
-- **Automated deployment** when code is merged from `develop` to `main`.
-- **Ensures consistency and quality** before merging code into the main branch.
+## Features
+- **Automated Cypress Component Testing**: Runs Cypress tests automatically when a **Pull Request (PR)** is made to the `develop` branch.
+- **Automated Deployment**: Deploys the application to **Render** when code is merged from `develop` to `main`.
+- **Quality and Consistency**: Guarantees that only tested and validated code is merged into the `main` branch, improving code reliability.
+
+## Workflow Overview
+1. **Cypress Testing**: On each PR to `develop`, Cypress tests run to validate the functionality of components.
+2. **Deployment to Render**: Once code is merged from `develop` to `main`, the pipeline automatically deploys the latest version to **Render**, ensuring a seamless update process.
+
+## Benefits
+- Streamlined testing and deployment process.
+- Consistent and reliable deployments.
+- Saves time and reduces manual errors during the integration and deployment stages.
 
 ## Technologies Used:
 - **GitHub Actions** – Automates testing and deployment.
